@@ -1,0 +1,59 @@
+html, body {margin:0px; padding:0px; height:100%; width:100%; max-width:100%; text-align:center; overflow-x:hidden;}
+
+* {margin:0px; padding:0px;}
+
+/*HEADER*/
+#menu {width:100%; height:7%; background:#1E2226; position:fixed; top:0; left:0; box-shadow:0 1px 3px rgba(0, 0, 0, 0.1);
+        z-index:1; border-bottom:1px solid red;}
+
+#logo {position:relative; top:40%; font-size:16px; font-family:'Roboto Slab', serif; color:white; text-transform:uppercase;}
+
+/*IMPRESSUM*/
+#impressum {height:1500px; background:#1E2226;}
+
+#impressum {font-size:20px;}
+
+#impressum h1 {color:white; position:relative; top:5%;}
+
+#impressum p {color:white; position:relative; top:50px;}
+
+#impressum ul {color:white; position:relative; top:50px;}
+
+/*TABLETS*/
+@media screen and (max-width: 1248px){
+  #impressum {height:1200px;}
+  #impressum h1 {font-size:20px;}
+  #impressum p {font-size:16px;}
+  #impressum li {font-size:16px;}
+
+@media screen and (max-width: 1000px){
+  #impressum {height:1100px;}
+  #impressum h1 {font-size:15px;}
+  #impressum p {font-size:14px;}
+  #impressum li {font-size:14px;}
+
+/*MOBILES*/
+@media screen and (max-width: 800px){
+  #menu {display:none;}
+  #impressum {height:1100px;}
+  #impressum h1 {font-size:13px;}
+  #impressum p {font-size:12px;}
+  #impressum li {font-size:12px;}
+
+@media screen and (max-width: 600px){
+  #impressum {height:1050px;}
+  #impressum h1 {font-size:10px;}
+  #impressum p {font-size:10px;}
+  #impressum li {font-size:10px;}
+
+@media screen and (max-width: 400px){
+  #impressum {height:1000px;}
+  #impressum h1 {font-size:8px;}
+  #impressum p {font-size:8px;}
+  #impressum li {font-size:8px;}
+
+@media screen and (max-width:370px){
+  #impressum {height:900px;}
+  #impressum h1 {font-size:8px;}
+  #impressum p {font-size:8px;}
+  #impressum li {font-size:8px;}

@@ -1,0 +1,548 @@
+html, body {margin:0px; padding:0px; height:100%; width:100%; max-width:100%; text-align:center; overflow-x:hidden;}
+
+
+* {margin:0px; padding:0px;}
+
+/*NAVIGATION*/
+#menu {width:100%; height:7%; background:#1E2226; position:fixed; top:0; left:0; box-shadow:0 1px 3px rgba(0, 0, 0, 0.1);
+        z-index:1; border-bottom:1px solid red;}
+
+#logo {float:left; position:relative; top:40%; left:3%; font-size:16px; font-family:'Roboto Slab', serif;}
+
+#logo a {text-decoration:none;}
+#logo a:hover {color:red;}
+
+li a, #logo a {transition:all 300ms; -webkit-transition:all 300ms;-moz-transition:all 300ms;-o-transition:all 300ms; -khtml-transition:all 300ms;}
+
+#menu nav {float:right; margin:0.5% 3% 0 0;}
+
+#menu nav ul li {float:left; -webkit-float:left; -o-float:left; -ms-float:left; -moz-float:left; -khtml-float:left;
+                  margin-left:30px; list-style-type:none; position:relative; top:15px; font-family:'Roboto Slab', serif;}
+#menu nav ul li a:hover {color:red;}
+
+#menu nav ul li a {font-size:16px; text-decoration:none;}
+
+h1, h2, h3, a, div {font-weight:500; color:white; text-transform:uppercase;}
+
+/*STARTSEITE*/
+#startseite {height:900px;}
+
+#startseite {background:url(Picture/Eingang-min.jpg); background-repeat:no-repeat; background-size:cover; background-attachment:fixed;}
+
+#startseite h2 {text-align:center; font-size:50px; color:white; position:relative; top:200px; text-shadow:1px 1px black; font-family:'Roboto Slab', serif;} /*Herzlich Willkommen*/
+
+#startseite h4 {text-align:center; font-size:40px; color:#1E2226; position:relative; top:300px;
+                text-shadow:1px 1px white; font-family:'Roboto Slab', serif;} /*Restaurant*/
+
+#startseite h3 {letter-spacing:7px; text-align:center; font-size:35px; color:white; position:relative; top:400px;
+                text-shadow:2px 2px black; font-family:'Roboto Slab', serif;} /*Asian Food etc.*/
+
+#startseite h1 {text-align:center; text-transform:uppercase; font-size:100px; color:#1E2226;
+                position:relative; top:250px; text-shadow:2px 2px white; font-family:'Roboto Slab', serif;}/*HONGKONG-HAUS*/
+
+/*BBQ*/
+#bbq {background:#1E2226; height:1000px;}
+
+#bbq h3 {text-align:center; text-transform:uppercase; font-size:60px; color:white; position:relative; top:50px;
+         letter-spacing:5px; font-family:'Roboto Slab', serif;}
+
+#bbq hr {width:100%; height:1px; background:red; position:relative; top:80px; border:0;}
+
+#bbq img {height:70%; position:relative; top:150px;}
+
+/*LOCKDOWN*/
+#lockdown {height:850px;}
+
+#lockdown {background:url(Picture/china_street.jpg); background-repeat:no-repeat; background-size:cover; background-position:100% 20%; background-attachment:fixed; position:relative;}
+
+#lockdown h3 {text-align:center; text-transform:uppercase; font-size:60px; color:white; letter-spacing:5px; position:relative; top:50px;
+            text-shadow:1px 1px black; font-family:'Roboto Slab', serif;}
+
+#lockdown h4 {text-align:center; font-size:60px; color:white; text-shadow:1px 1px black; position:relative; top:150px; letter-spacing:5px; font-family:'Roboto Slab', serif;}
+
+#lockdown #zwanzig {text-align:center; font-size:40px; color:white; position:relative; top:270px; text-shadow:1px 1px black; font-family:'Roboto Slab', serif;}
+
+#lockdown #zeiten {text-align:center; font-size:50px; color:white; position:relative; top:260px; text-shadow:1px 1px black; font-family:'Roboto Slab', serif;}
+
+.zeiten_extra {text-align:center; font-size:50px; color:red; position:relative; top:260px; text-shadow:1px 1px black; font-family:'Roboto Slab', serif;}
+
+/*SPEISEKARTE*/
+#speisekarte {height:2000px;}
+
+#speisekarte {background:#1E2226;}
+
+#speisekarte h3 {text-align:center; text-transform:uppercase; font-size:60px; color:white; position:relative; top:50px;
+                 letter-spacing:5px; font-family:'Roboto Slab', serif;}
+
+#speisekarte #h3Vorspeise {position:relative; top:120px;}
+#speisekarte #h3Hauptspeisen {position:relative; top:250px;}
+
+#speisekarte hr {width:100%; height:1px; background:red; position:relative; top:80px; border:0;}
+
+#speisekarte #Vorspeisen {height:800px; position:relative; top:200px; right:3%;}
+#speisekarte #Salat {height:800px; position:relative; top:200px; left:3%;}
+
+#speisekarte #HongKongNudeln {height:550px; position:relative; top:350px; right:3%;}
+#speisekarte #HongKongReis1 {height:550px; position:relative; top:350px;}
+#speisekarte #HongKongReis2 {height:550px; position:relative; top:350px; left:3%;}
+
+
+/*ÜBER UNS*/
+#uberuns {height:900px;}
+
+#uberuns {background:url(Picture/uberuns2-min.jpg); background-repeat:no-repeat; background-size:cover; background-attachment:fixed;}
+
+#uberuns #schrift {text-align:center; text-transform:uppercase; font-size:60px; color:white; position:relative; top:50px;
+                   letter-spacing:5px; font-family:'Roboto Slab', serif; text-shadow:1px 1px black;}
+
+#uberuns h2 {text-align:center; text-transform:uppercase; font-size:70px; color:#1E2226; text-shadow:1px 1px white; position:relative; top:200px;
+                   font-family:'Roboto Slab', serif;  font-family:'Roboto Slab', serif;}
+
+#uberuns #restaurant {text-align:center; text-transform:uppercase; font-size:40px; color:#1E2226; text-shadow:1px 1px white;
+                      position:relative; top:210px; font-family:'Roboto Slab', serif;}
+
+#uberuns p {text-align:center; font-size:30px; color:white; position:relative; top:300px; font-family:'Roboto Slab', serif; text-shadow:1px 1px black;}
+
+/*KONTAKT*/
+#kontakt {height:1000px;}
+
+#kontakt {background:#1E2226;}
+
+#kontakt h3 {text-align:center; text-transform:uppercase; font-size:60px; color:white; position:relative; top:50px;
+             letter-spacing:5px; font-family:'Roboto Slab', serif;}
+
+#uberschrift {width:100%; height:1px; background:red; position:relative; top:60px; border:0;} /*hr*/
+
+#kontakt img {float:right; height:700px; width:30%; position:relative; right:10%; bottom:10%; top:100px; border-radius:5px;}
+
+#kontakt div {float:left; font-size:28px; position:relative; left:10%; bottom:30px; top:100px;}
+
+#kontakt div p {text-align:left; font-family:'Roboto Slab', serif;}
+
+#kontakt #instagram {font-size:30px; position:relative; bottom:20px; text-transform:capitalize;}
+#kontakt #instagram:hover {color:#C13584; transition:all 300ms; -webkit-transition:all 300ms;-moz-transition:all 300ms;-o-transition:all 300ms;}
+#kontakt #tripadvisor {font-size:30px; position:relative; bottom:60px; left:200px; text-transform:lowercase;}
+#kontakt #tripadvisor:hover {color:#00AF87; transition:all 300ms; -webkit-transition:all 300ms;-moz-transition:all 300ms;-o-transition:all 300ms;}
+#kontakt a {text-decoration:none;}
+
+/*FOOTER*/
+footer {width:100%; height:70px; border-top:1px solid red; background:#1E2226; position:relative;}
+
+footer p {text-align:center; color:white; font-size:20px; position:relative; top:20px; border-bottom:0;}
+
+/*LAPTOP***********************************************************************/
+@media screen and (max-width: 1600px){
+  #kontakt img {display:none;}
+  #uberuns p {font-size:150%;}
+  #kontakt div {float:none;}
+}
+/*TABLETS**********************************************************************/
+@media screen and (max-width: 1248px){
+
+/*STARTSEITE*/
+#startseite h1 {font-size:80px;}
+#startseite h2 {font-size:50px;}
+#startseite h4 {font-size:40px;}
+#startseite h3 {font-size:30px; position:relative; top:400px;}
+
+/*BBQ*/
+#bbq {height:1000px;}
+#bbq h3 {font-size:40px;}
+#bbq img {height:70%;}
+
+/*LOCKDOWN*/
+#lockdown {height:700px;}
+#lockdown h3 {font-size:40px;}
+#lockdown h4 {font-size:50px; position:relative; top:150px;}
+#lockdown #zwanzig {font-size:35px; position:relative; top:250px;}
+#lockdown #zeiten {font-size:35px; position:relative; top:200px;}
+#lockdown .zeiten_extra {font-size:35px; position:relative; top:200px;}
+#lockdown img {position:relative; top:350px;}
+
+/*SPEISEKARTE*/
+#speisekarte {height:1800px;}
+#speisekarte h3 {font-size:40px;}
+#speisekarte #h3 {font-size:30px;}
+#buffet img {position:relative; top:350px;}
+#speisekarte #Vorspeisen {height:700px;}
+#speisekarte #Salat {height:700px;}
+#speisekarte #HongKongNudeln {height:500px;}
+#speisekarte #HongKongReis1 {height:500px;}
+#speisekarte #HongKongReis2 {height:500px;}
+
+/*ÜBER UNS*/
+#uberuns #schrift {font-size:40px;}
+#uberuns h2 {font-size:50px; position:relative; top:150px;}
+#uberuns #restaurant {font-size:50px; position:relative; top:150px;}
+#uberuns p {font-size:30px; position:relative; top:250px;}
+
+/*KONTAKT*/
+#kontakt {height:1100px;}
+#kontakt h3 {font-size:40px;}
+#kontakt div p {font-size:30px;}
+#kontakt #instagram {font-size:30px; position:relative; top:10px;}
+#kontakt #tripadvisor {font-size:30px; position:relative; left:0; top:50px;}
+}
+
+@media screen and (max-width: 1000px){
+
+  /*STARTSEITE*/
+  #startseite {height:800px;}
+  #startseite h1 {font-size:70px;}
+  #startseite h2 {font-size:40px;}
+  #startseite h4 {font-size:35px;}
+  #startseite h3 {font-size:25px; position:relative; top:400px;}
+
+  /*BBQ*/
+  #bbq {height:800px;}
+  #bbq h3 {font-size:40px;}
+  #bbq img {height:70%;}
+
+  /*BUFFET*/
+  #buffet h3 {font-size:40px;}
+  #buffet h4 {font-size:50px; position:relative; top:150px;}
+  #buffet #zwanzig {font-size:35px; position:relative; top:250px;}
+  #buffet #zeiten {font-size:35px; position:relative; top:200px;}
+  #buffet #preis {position:relative; top:300px;}
+  #buffet img {position:relative; top:350px;}
+
+  /*SPEISEKARTE*/
+  #speisekarte {height:1500px;}
+  #speisekarte h3 {font-size:40px;}
+  #speisekarte #h3 {font-size:30px;}
+  #speisekarte #Vorspeisen {height:500px;}
+  #speisekarte #Salat {height:500px;}
+  #speisekarte #HongKongNudeln {height:400px;}
+  #speisekarte #HongKongReis1 {height:400px;}
+  #speisekarte #HongKongReis2 {height:400px;}
+
+  /*ÜBER UNS*/
+  #uberuns #schrift {font-size:40px;}
+  #uberuns h2 {font-size:50px; position:relative; top:150px;}
+  #uberuns #restaurant {font-size:50px; position:relative; top:150px;}
+  #uberuns p {font-size:25px; position:relative; top:250px;}
+
+  /*KONTAKT*/
+  #kontakt {height:1000px;}
+  #kontakt h3 {font-size:40px;}
+  #kontakt div p {font-size:25px;}
+  #kontakt #instagram {font-size:30px; position:relative; top:10px;}
+  #kontakt #tripadvisor {font-size:30px; position:relative; left:0; top:50px;}
+}
+
+/*MOBILES**********************************************************************/
+@media screen and (max-width: 600px){
+
+/*NAVIGATION*/
+#logo {display:none;}
+#menu {height:70px;}
+#menu nav {float:none; margin-top:0;}
+
+/*STARTSEITE*/
+#startseite h1 {font-size:30px;}
+#startseite h2 {font-size:20px;}
+#startseite h4 {font-size:20px;}
+#startseite h3 {font-size:15px; position:relative; top:350px;}
+
+/*BBQ*/
+#bbq h3 {font-size:30px;}
+
+/*LOCKDOWN*/
+#lockdown h3 {font-size:30px;}
+#lockdown h4 {font-size:25px; position:relative; top:80px;}
+#lockdown #zwanzig {font-size:18px; position:relative; top:100px;}
+#lockdown #zeiten {font-size:18px; position:relative; top:80px;}
+#lockdown .zeiten_extra {font-size:18px; position:relative; top:80px;}
+#lockdown img {position:relative; top:200px;}
+
+/*SPEISEKARTE*/
+#speisekarte h3 {font-size:30px;}
+#speisekarte #h3 {font-size:22px;}
+
+/*ÜBER UNS*/
+#uberuns #schrift {font-size:30px;}
+#uberuns h2 {font-size:25px; position:relative; top:100px;}
+#uberuns #restaurant {font-size:25px; position:relative; top:100px;}
+#uberuns p {font-size:15px; position:relative; top:140px;}
+
+/*KONTAKT*/
+#kontakt h3 {font-size:30px;}
+#kontakt div p {font-size:15px;}
+#kontakt #instagram {font-size:18px; position:relative; top:10px;}
+#kontakt #tripadvisor {font-size:18px; position:relative; left:0; top:50px;}
+}
+
+@media screen and (max-width: 900px){
+
+  #logo {display:none;}
+  
+  /*SPEISEKARTE*/
+  #speisekarte #Vorspeisen {height:500px;}
+  #speisekarte #Salat {height:500px;}
+  #speisekarte #HongKongNudeln {height:350px;}
+  #speisekarte #HongKongReis1 {height:350px;}
+  #speisekarte #HongKongReis2 {height:350px;}
+}
+@media screen and (max-width: 800px){
+
+/*NAVIGATION*/
+#logo {display:none;}
+#menu {height:50px;}
+#menu nav {float:none; margin-top:0;}
+
+/*STARTSEITE*/
+#startseite h1 {font-size:60px;}
+#startseite h2 {font-size:50px;}
+#startseite h4 {font-size:50px;}
+#startseite h3 {font-size:35px; position:relative; top:400px;}
+
+/*BBQ*/
+#bbq {height:1200px;}
+#bbq h3 {font-size:40px;}
+
+/*LOCKDOWN*/
+#lockdown h3 {font-size:40px;}
+#lockdown h4 {font-size:40px; position:relative; top:150px;}
+#lockdown #zwanzig {font-size:30px; position:relative; top:250px;}
+#lockdown #zeiten {font-size:30px; position:relative; top:200px;}
+#lockdown .zeiten_extra {font-size:30px; position:relative; top:200px;}
+#lockdown img {position:relative; top:400px;}
+
+/*SPEISEKARTE*/
+#speisekarte {height:1400px;}
+#speisekarte h3 {font-size:40px;}
+#speisekarte #h3 {font-size:25px;}
+#speisekarte #h4 {font-size:25px;}
+#speisekarte p {font-size:20px;}
+#speisekarte #Vorspeisen {height:450px;}
+#speisekarte #Salat {height:450px;}
+#speisekarte #HongKongNudeln {height:330px;}
+#speisekarte #HongKongReis1 {height:330px;}
+#speisekarte #HongKongReis2 {height:330px;}
+
+/*ÜBER UNS*/
+#uberuns #schrift {font-size:40px;}
+#uberuns h2 {font-size:50px; position:relative; top:130px;}
+#uberuns #restaurant {font-size:50px; position:relative; top:130px;}
+#uberuns p {font-size:25px; position:relative; top:250px;}
+
+/*KONTAKT*/
+#kontakt h3 {font-size:40px;}
+#kontakt div p {font-size:25px;}
+#kontakt #instagram {font-size:25px; position:relative; top:10px;}
+#kontakt #tripadvisor {font-size:25px; position:relative; left:0; top:50px;}
+}
+
+@media screen and (max-width: 700px){
+
+  /*SPEISEKARTE*/
+  #speisekarte {height:1200px;}
+  #speisekarte #Vorspeisen {height:350px;}
+  #speisekarte #Salat {height:350px;}
+  #speisekarte #HongKongNudeln {height:300px;}
+  #speisekarte #HongKongReis1 {height:300px;}
+  #speisekarte #HongKongReis2 {height:300px;}
+  #speisekarte #Vorspeisen {left:0.6%;}
+  #speisekarte #Salat {left:0.4%;}
+  #speisekarte #HongKongNudeln {left:0.5%;}
+  #speisekarte #HongKongReis1 {left:0.5%;}
+  #speisekarte #HongKongReis2 {left:0.6%;}
+}
+
+@media screen and (max-width: 650px){
+
+  #logo {display:none;}
+  /*BBQ*/
+  #bbq {height:1000px;}
+  #bbq img {height:700px;}
+
+  /*SPEISEKARTE*/
+  #speisekarte {height:1200px;}
+  #speisekarte #HongKongNudeln {height:250px;}
+  #speisekarte #HongKongReis1 {height:250px;}
+  #speisekarte #HongKongReis2 {height:250px;}
+}
+
+@media screen and (max-width: 600px){
+
+/*NAVIGATION*/
+#menu {height:70px;}
+
+/*STARTSEITE*/
+#startseite h1 {font-size:45px;}
+#startseite h2 {font-size:40px;}
+#startseite h4 {font-size:40px;}
+#startseite h3 {font-size:30px; position:relative; top:400px;}
+
+/*BBQ*/
+#bbq {height:1000px;}
+#bbq h3 {font-size:40px;}
+
+/*LOCKDOWN*/
+#lockdown h3 {font-size:40px;}
+#lockdown h4 {font-size:40px; position:relative; top:150px;}
+#lockdown #zwanzig {font-size:30px; position:relative; top:250px;}
+#lockdown #zeiten {font-size:30px; position:relative; top:200px;}
+#lockdown .zeiten_extra {font-size:30px; position:relative; top:200px;}
+#lockdown img {position:relative; top:400px;}
+
+/*SPEISEKARTE*/
+#speisekarte h3 {font-size:40px;}
+#speisekarte #h3 {font-size:25px;}
+#speisekarte #Vorspeisen {left:0.6%;}
+#speisekarte #Salat {left:0.4%;}
+#speisekarte #HongKongNudeln {left:0.5%;}
+#speisekarte #HongKongReis1 {left:0.5%;}
+#speisekarte #HongKongReis2 {left:0.6%;}
+
+/*ÜBER UNS*/
+#uberuns #schrift {font-size:40px;}
+#uberuns h2 {font-size:45px; position:relative; top:130px;}
+#uberuns #restaurant {font-size:45px; position:relative; top:130px;}
+#uberuns p {font-size:22px; position:relative; top:250px;}
+
+/*KONTAKT*/
+#kontakt {height:900px;}
+#kontakt h3 {font-size:40px;}
+#kontakt div p {font-size:18px;}
+#kontakt #instagram {font-size:20px; position:relative; top:10px;}
+#kontakt #tripadvisor {font-size:20px; position:relative; left:0; top:50px;}
+
+/*FOOTER*/
+footer p {font-size:18px;}
+}
+
+@media screen and (max-width: 550px){
+
+  #logo {display:none;}
+
+  /*SPEISEKARTE*/
+  #speisekarte {height:3500px;}
+  #speisekarte #Vorspeisen {height:600px; position:relative; top:200px;}
+  #speisekarte #Salat {height:550px; position:relative; top:200px;}
+
+  #speisekarte #HongKongNudeln {height:600px; position:relative; top:350px;}
+  #speisekarte #HongKongReis1 {height:600px; position:relative; top:350px;}
+  #speisekarte #HongKongReis2 {height:600px; position:relative; top:350px;}
+}
+
+@media screen and (max-width: 400px){
+
+/*NAVIGATION*/
+#logo {display:none;}
+#menu {height:70px;}
+#menu nav {float:none; margin-top:0;}
+
+/*STARTSEITE*/
+#startseite {height:700px;}
+#startseite h1 {font-size:35px;}
+#startseite h2 {font-size:20px;}
+#startseite h4 {font-size:25px;}
+#startseite h3 {font-size:15px; position:relative; top:400px;}
+
+/*BBQ*/
+#bbq {height:800px;}
+#bbq h3 {font-size:30px;}
+#bbq img {height:500px;}
+
+/*LOCKDOWN*/
+#lockdown {height:800px;}
+#lockdown h3 {font-size:30px;}
+#lockdown h4 {font-size:30px; position:relative; top:150px;}
+#lockdown #zwanzig {font-size:25px; position:relative; top:250px;}
+#lockdown #zeiten {font-size:25px; position:relative; top:200px;}
+#lockdown .zeiten_extra {font-size:25px; position:relative; top:200px;}
+#lockdown img {position:relative; top:350px;}
+
+/*SPEISEKARTE*/
+#speisekarte h3 {font-size:30px;}
+#speisekarte #h3 {font-size:22px;}
+
+#speisekarte {height:3000px;}
+#speisekarte #Vorspeisen {height:500px; position:relative; top:200px;}
+#speisekarte #Salat {height:450px; position:relative; top:200px;}
+
+#speisekarte #HongKongNudeln {height:500px; position:relative; top:350px;}
+#speisekarte #HongKongReis1 {height:500px; position:relative; top:350px;}
+#speisekarte #HongKongReis2 {height:500px; position:relative; top:350px;}
+#speisekarte #Vorspeisen {left:0.6%;}
+#speisekarte #Salat {left:0.4%;}
+#speisekarte #HongKongNudeln {left:0.5%;}
+#speisekarte #HongKongReis1 {left:0.5%;}
+#speisekarte #HongKongReis2 {left:0.6%;}
+
+/*ÜBER UNS*/
+#uberuns {height:800px;}
+#uberuns #schrift {font-size:30px;}
+#uberuns h2 {font-size:30px; position:relative; top:150px;}
+#uberuns #restaurant {font-size:30px; position:relative; top:150px;}
+#uberuns p {font-size:18px; position:relative; top:250px;}
+
+/*KONTAKT*/
+#kontakt {height:850px;}
+#kontakt h3 {font-size:30px;}
+#kontakt div p {font-size:15px;}
+#kontakt #instagram {font-size:18px; position:relative; top:10px;}
+#kontakt #tripadvisor {font-size:18px; position:relative; left:0; top:50px;}
+
+/*FOOTER*/
+footer p {font-size:15px;}
+}
+
+@media screen and (max-width:370px){
+  /*NAVIGATION*/
+  #menu {height:90px;}
+
+  /*STARTSEITE*/
+  #startseite {height:700px;}
+  #startseite h1 {font-size:45px;}
+  #startseite h2 {font-size:30px;}
+  #startseite h4 {font-size:30px;}
+  #startseite h3 {font-size:22px; position:relative; top:350px;}
+
+  /*BBQ*/
+  #bbq {height:700px;}
+  #bbq h3 {font-size:35px;}
+  #bbq img {height:400px;}
+
+  /*LOCKDOWN*/
+  #lockdown h3 {font-size:35px;}
+  #lockdown h4 {font-size:32px; position:relative; top:100px;}
+  #lockdown #zwanzig {font-size:30px; position:relative; top:230px;}
+  #lockdown#zeiten {font-size:30px; position:relative; top:180px;}
+  #lockdown #preis {position:relative; top:250px;}
+  #lockdown img {position:relative; top:320px;}
+
+  /*SPEISEKARTE*/
+  #speisekarte h3 {font-size:35px;}
+  #speisekarte #h3 {font-size:25px;}
+
+  #speisekarte {height:2500px;}
+  #speisekarte #Vorspeisen {height:400px; position:relative; top:200px;}
+  #speisekarte #Salat {height:350px; position:relative; top:200px;}
+
+  #speisekarte #HongKongNudeln {height:400px; position:relative; top:350px;}
+  #speisekarte #HongKongReis1 {height:400px; position:relative; top:350px;}
+  #speisekarte #HongKongReis2 {height:400px; position:relative; top:350px;}
+  #speisekarte #Vorspeisen {left:0.6%;}
+  #speisekarte #Salat {left:0.4%;}
+  #speisekarte #HongKongNudeln {left:0.5%;}
+  #speisekarte #HongKongReis1 {left:0.5%;}
+  #speisekarte #HongKongReis2 {left:0.6%;}
+
+  /*ÜBER UNS*/
+  #uberuns {height:750px;}
+  #uberuns #schrift {font-size:35px;}
+  #uberuns h2 {font-size:32px; position:relative; top:150px;}
+  #uberuns #restaurant {font-size:32px; position:relative; top:150px;}
+  #uberuns p {font-size:20px; position:relative; top:250px;}
+
+  /*KONTAKT*/
+  #kontakt h3 {font-size:35px;}
+  #kontakt div p {font-size:20px;}
+  #kontakt #instagram {font-size:22px; position:relative; top:10px;}
+  #kontakt #tripadvisor {font-size:22px; position:relative; left:0; top:50px;}
+
+  /*FOOTER*/
+  footer p {font-size:20px;}
+}
